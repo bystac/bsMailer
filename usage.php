@@ -44,3 +44,6 @@ $bsMailer->setVariables(array('order_amount'=>'100$', 'costumer_name'=>'shachar'
 print '<h1>'.$bsMailer->getTemplateContent('subject', true).'</h1>';
 print $bsMailer->getTemplateContent('html', true);
 
+/*
+	testing the new edit files at github.
+*/
